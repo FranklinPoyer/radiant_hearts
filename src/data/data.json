@@ -1,0 +1,77 @@
+{
+  "organization": {
+    "name": "Radiant Hearts Women Group",
+    "mission": "To promote economic empowerment of members, support vulnerable women, and empower communities through innovative and compassionate initiatives.",
+    "contacts": {
+      "phone": "+254740145606",
+      "address": "P.O Box 188-60408, Chuka, Kenya"
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Family Planning Initiative",
+      "description": "Promoting access to family planning resources and education to empower women in Chuka to make informed reproductive health choices.",
+      "thumbnail": "/family_planning/1.jpg",
+      "heroImage": "/family_planning/1.jpg",
+      "images": [
+        { "src": "/family_planning/1.jpg", "alt": "Family Planning Workshop" },
+        { "src": "/family_planning/2.jpg", "alt": "Community Outreach" }
+      ],
+      "link": "/family-planning"
+    },
+    {
+      "id": 2,
+      "title": "Sack Gardening Program",
+      "description": "Teaching sustainable sack gardening techniques to enhance food security and economic independence for women in Tharaka-Nithi County.",
+      "thumbnail": "/sack_gardening/1.jpg",
+      "heroImage": "/sack_gardening/2.jpg",
+      "images": [
+        { "src": "/sack_gardening/3.jpg", "alt": "Sack Gardening Training" },
+        { "src": "/sack_gardening/4.jpg", "alt": "Harvest Success" }
+      ],
+      "link": "/sack-gardening"
+    },
+    {
+      "id": 3,
+      "title": "Women’s Rights Advocacy",
+      "description": "Advocating for gender equality and women’s rights through education, workshops, and community engagement in Chuka.",
+      "thumbnail": "/womens_rights/1.jpg",
+      "heroImage": "/womens_rights/1.jpg",
+      "images": [
+        { "src": "/womens_rights/2.jpg", "alt": "Women’s Rights Workshop" },
+        { "src": "/womens_rights/3.jpg", "alt": "Community Advocacy" }
+      ],
+      "link": "/womens-rights"
+    },
+    {
+      "id": 4,
+      "title": "Ending Violence Against Women",
+      "description": "Raising awareness and providing support to combat violence against women, fostering a safer community in Tharaka-Nithi.",
+      "thumbnail": "/womens_violence/1.jpg",
+      "heroImage": "/womens_violence/1.jpg",
+      "images": [
+        { "src": "/womens_violence/2.jpg", "alt": "Support Workshop" },
+        { "src": "/womens_violence/3.jpg", "alt": "Awareness Campaign" }
+      ],
+      "link": "/womens-violence"
+    }
+  ],
+  "partners": [
+    {
+      "name": "Chuka University",
+      "logo": "/partners/chuka_university.png",
+      "url": "https://www.chuka.ac.ke"
+    },
+    {
+      "name": "COVAW",
+      "logo": "/partners/covaw.png",
+      "url": "https://covaw.or.ke"
+    },
+    {
+      "name": "Tharaka-Nithi Social Services",
+      "logo": "/partners/tharakanithi.png",
+      "url": "https://example.com"
+    }
+  ]
+}

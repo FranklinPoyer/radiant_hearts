@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Home from './pages/Home';
+import FamilyPlanning from './pages/FamilyPlanning';
+import SackGardening from './pages/SackGardening';
+import WomensRights from './pages/WomensRights';
+import WomensViolence from './pages/WomensViolence';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/family-planning" element={<FamilyPlanning />} />
+        <Route path="/sack-gardening" element={<SackGardening />} />
+        <Route path="/womens-rights" element={<WomensRights />} />
+        <Route path="/womens-violence" element={<WomensViolence />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
