@@ -21,7 +21,7 @@ const FamilyPlanning = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-rh-dark-blue mb-6">Empowering Women Through Family Planning</h2>
           <p className="text-gray-600 mb-6">
-            At Radiant Hearts Women Group, based in Chuka, Tharaka-Nithi County, we are committed to empowering women through access to family planning resources. Our initiative provides education, counseling, and access to reproductive health services, aligning with our mission to support vulnerable women and promote community empowerment.
+            At Radiant Hearts Women Group, we are committed to empowering women through access to family planning resources. Our initiative provides education, counseling, and access to reproductive health services, which aligns with our mission to support vulnerable women and promote community empowerment.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-6">
             {project.images.map((image, index) => (
@@ -36,7 +36,7 @@ const FamilyPlanning = () => {
             ))}
           </div>
           <p className="text-gray-600">
-            Our Family Planning Initiative has reached hundreds of women in Tharaka-Nithi, providing them with the knowledge and resources to make informed choices. This program supports our goal of economic empowerment by enabling women to plan their families and pursue opportunities for growth. Contact us at {data.organization.contacts.phone} or visit us at {data.organization.contacts.address} to learn how you can support this cause.
+            Our Family Planning Initiative has reached hundreds of women in Tharaka-Nithi, providing them with the knowledge and resources to make informed choices. This program supports our goal of economic empowerment by enabling women to plan their families and pursue opportunities for growth. Contact us at {data.organization.contacts.phone} to learn how you can support this cause.
           </p>
           <a
             href="#about"

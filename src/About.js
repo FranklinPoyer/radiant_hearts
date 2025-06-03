@@ -13,7 +13,7 @@ const About = () => {
             <h3 className="text-xl font-semibold text-rh-blue-2">Our Mission</h3>
             <p className="text-gray-600 mt-2">{data.organization.mission}</p>
             <p className="text-gray-600 mt-2">
-              Led by Chairlady Lucy Mugito, Treasurer Mercy Makena, and Secretary Catherine Murugi, we are a registered self-help group in Chuka, Tharaka-Nithi County, dedicated to economic and community empowerment.
+              We are a registered self-help group in Chuka, Tharaka-Nithi County, committed to advancing economic and social empowerment for women and the community at large. Through our programs, we address key local challenges including gender equity, food security, and health access, working with both local and international partners.
             </p>
           </div>
           {/* Contacts */}
@@ -25,7 +25,10 @@ const About = () => {
           {/* Partners */}
           <div>
             <h3 className="text-xl font-semibold text-rh-blue-2">Our Partners</h3>
-            <div className="flex flex-wrap gap-4 mt-2">
+            <p className="text-gray-600 mt-2">
+              We collaborate with Tharaka Nithi County, SHARE Institute, and other local and international organizations to support our initiatives.
+            </p>
+            <div className="flex flex-wrap gap-4 mt-4">
               {data.partners.map((partner) => (
                 <a
                   key={partner.name}

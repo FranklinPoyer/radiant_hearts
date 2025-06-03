@@ -1,7 +1,7 @@
 import data from '../data/data.json';
 
-const WomensViolence = () => {
-  const project = data.projects.find((p) => p.title === 'Ending Violence Against Women');
+const WomensRights = () => {
+  const project = data.projects.find((p) => p.title === 'Women’s Rights Advocacy');
 
   return (
     <div className="bg-gray-100">
@@ -19,9 +19,9 @@ const WomensViolence = () => {
       </section>
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-rh-dark-blue mb-6">Creating Safer Communities</h2>
+          <h2 className="text-3xl font-bold text-rh-dark-blue mb-6">Advocating for Gender Equality</h2>
           <p className="text-gray-600 mb-6">
-            Radiant Hearts Women Group in Chuka is dedicated to ending violence against women through awareness campaigns, support services, and community engagement. This initiative supports our goal of empowering vulnerable women in Tharaka-Nithi County.
+            Radiant Hearts Women Group, based in Chuka, Tharaka-Nithi, champions women’s rights through education and advocacy. Our workshops and community programs empower women to understand and assert their rights, aligning with our mission to support vulnerable women.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-6">
             {project.images.map((image, index) => (
@@ -36,7 +36,7 @@ const WomensViolence = () => {
             ))}
           </div>
           <p className="text-gray-600">
-            Our efforts include counseling, legal support, and community dialogues to combat violence and foster safety. As a registered self-help group under the Ministry of East African Community, Labour and Social Protection, we work tirelessly to create change. Reach out at {data.organization.contacts.address} or {data.organization.contacts.phone}.
+            Our advocacy efforts have sparked meaningful change, empowering women to take leadership roles and challenge inequality. Guided by our management committee, we continue to drive impact. Contact us at {data.organization.contacts.phone} to join our mission.
           </p>
           <a
             href="#about"
@@ -50,4 +50,4 @@ const WomensViolence = () => {
   );
 };
 
-export default WomensViolence;
+export default WomensRights;

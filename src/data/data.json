@@ -15,8 +15,8 @@
       "thumbnail": "/family_planning/1.jpg",
       "heroImage": "/family_planning/1.jpg",
       "images": [
-        { "src": "/family_planning/1.jpg", "alt": "Family Planning Workshop" },
-        { "src": "/family_planning/2.jpg", "alt": "Community Outreach" }
+        { "src": "/family_planning/1.jpg", "alt": "Family Planning Demo" },
+        { "src": "/family_planning/2.jpg", "alt": "Family Planning Workshop" }
       ],
       "link": "/family-planning"
     },
@@ -28,7 +28,7 @@
       "heroImage": "/sack_gardening/2.jpg",
       "images": [
         { "src": "/sack_gardening/3.jpg", "alt": "Sack Gardening Training" },
-        { "src": "/sack_gardening/4.jpg", "alt": "Harvest Success" }
+        { "src": "/sack_gardening/4.jpg", "alt": "Sack-Grown Produce" }
       ],
       "link": "/sack-gardening"
     },
@@ -51,27 +51,33 @@
       "thumbnail": "/womens_violence/1.jpg",
       "heroImage": "/womens_violence/1.jpg",
       "images": [
-        { "src": "/womens_violence/2.jpg", "alt": "Support Workshop" },
-        { "src": "/womens_violence/3.jpg", "alt": "Awareness Campaign" }
+        { "src": "/womens_violence/2.jpg", "alt": "Awareness Campaign Poster" },
+        { "src": "/womens_violence/3.jpg", "alt": "Violence Awareness and Prevention Event" }
       ],
       "link": "/womens-violence"
     }
   ],
   "partners": [
-    {
-      "name": "Chuka University",
-      "logo": "/partners/chuka_university.png",
-      "url": "https://www.chuka.ac.ke"
-    },
-    {
-      "name": "COVAW",
-      "logo": "/partners/covaw.png",
-      "url": "https://covaw.or.ke"
-    },
-    {
-      "name": "Tharaka-Nithi Social Services",
-      "logo": "/partners/tharakanithi.png",
-      "url": "https://example.com"
-    }
+  {
+    "name": "Tharaka Nithi County",
+    "logo": "/partners/tharaka_nithi_county.png",
+    "url": "https://tharakanithi.go.ke/"
+  },
+  {
+    "name": "SHARE Institute",
+    "logo": "/partners/share_institute.png",
+    "url": "https://theshareinstitute.org/"
+  },
+  {
+    "name": "COVAW",
+    "logo": "/partners/covaw.png",
+    "url": "https://covaw.or.ke"
+  },
+  {
+    "name": "Chuka University",
+    "logo": "/partners/chuka_university.png",
+    "url": "https://www.chuka.ac.ke"
+  }
+
   ]
 }
