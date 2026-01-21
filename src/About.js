@@ -19,7 +19,6 @@ const About = () => {
           {/* Contacts */}
           <div>
             <h3 className="text-xl font-semibold text-rh-blue-2">Contact Us</h3>
-            <p className="text-gray-600 mt-2">Phone: {data.organization.contacts.phone}</p>
             <p className="text-gray-600">Address: {data.organization.contacts.address}</p>
           </div>
           {/* Partners */}
